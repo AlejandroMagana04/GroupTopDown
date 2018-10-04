@@ -17,7 +17,7 @@ public class coins : MonoBehaviour {
 	}
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "coin")
+        if (collision.gameObject.tag == "coins")
         {
             coinCount++;
             coinText.GetComponent<Text>().text = "Coins:" + coinCount;
