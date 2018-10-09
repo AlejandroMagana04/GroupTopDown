@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 95726709486256894}
   - component: {fileID: 50645513446667230}
   - component: {fileID: 61135876575786188}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: zombie duck
   m_TagString: Enemy
   m_Icon: {fileID: 0}
