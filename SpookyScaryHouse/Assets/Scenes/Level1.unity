@@ -123,6 +123,7 @@ GameObject:
   - component: {fileID: 77103971}
   - component: {fileID: 77103973}
   - component: {fileID: 77103972}
+  - component: {fileID: 77103974}
   m_Layer: 0
   m_Name: GhostGenerator
   m_TagString: Untagged
@@ -281,6 +282,19 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &77103974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 77103970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35a95e5d9ad38e04bba2c2ddeb42f657, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shootSpeed: 10
+  prefab: {fileID: 0}
 --- !u!1 &320065919
 GameObject:
   m_ObjectHideFlags: 0

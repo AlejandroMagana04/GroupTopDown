@@ -14,6 +14,21 @@ public class GhostGenerator : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         timer += Time.deltaTime;
+        if(timer > 0.2f)
+        {
+            timer = 0;
+            var mousePosition = Input.mousePosition;
+            mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
+            mousePosition.z = 0;
+            Vector3 shootDir = mousePosition - transform.position;
+            shootDir.Normalize();
+            Vector3 offset = shootDir;
+            shootDir = shootDir * shootSpeed;
+            //When calculating a Vector from a to b
+            //always do destination - start position
+            GameObject bullet = (GameObject)Instantiate(prefab, transform.position, Quaternion.identity);
+            bullet.GetComponent<Rigidbody2D>().velocity = shootDir;
+        }
 
     }
 }
