@@ -124,6 +124,7 @@ GameObject:
   - component: {fileID: 77103973}
   - component: {fileID: 77103972}
   - component: {fileID: 77103974}
+  - component: {fileID: 77103975}
   m_Layer: 0
   m_Name: GhostGenerator
   m_TagString: Untagged
@@ -293,8 +294,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35a95e5d9ad38e04bba2c2ddeb42f657, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shootSpeed: 10
-  prefab: {fileID: 0}
+--- !u!114 &77103975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 77103970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9474066e582527f47ae435b7005a74f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 1875904589066756, guid: 5f191482c9fede3499db20d5be502526, type: 2}
+  player: {fileID: 1213193474}
+  bulletSpeed: 2
+  shootDistance: 1
+  bulletLifetime: 999999
+  shootDelay: 4
 --- !u!1 &320065919
 GameObject:
   m_ObjectHideFlags: 0
@@ -3509,6 +3525,11 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.35110918, y: 0.5678433}
   m_EdgeRadius: 0
+--- !u!1 &1213193474 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1695455838770578, guid: eefbb1b76f2258d4595d3832abc1e2b7,
+    type: 2}
+  m_PrefabInternal: {fileID: 341944382}
 --- !u!1001 &1265763812
 Prefab:
   m_ObjectHideFlags: 0
