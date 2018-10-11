@@ -124,10 +124,9 @@ GameObject:
   - component: {fileID: 77103973}
   - component: {fileID: 77103972}
   - component: {fileID: 77103974}
-  - component: {fileID: 77103975}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GhostGenerator
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -291,26 +290,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 77103970}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35a95e5d9ad38e04bba2c2ddeb42f657, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &77103975
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 77103970}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9474066e582527f47ae435b7005a74f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 1875904589066756, guid: 5f191482c9fede3499db20d5be502526, type: 2}
+  prefab: {fileID: 895443397}
   player: {fileID: 1213193474}
-  bulletSpeed: 2
-  shootDistance: 1
-  bulletLifetime: 999999
-  shootDelay: 4
+  bulletSpeed: 10
+  shootDistance: 5
+  bulletLifetime: 1
+  shootDelay: 1
 --- !u!1 &320065919
 GameObject:
   m_ObjectHideFlags: 0
@@ -3297,6 +3285,28 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &895443397 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000271930434484, guid: a4166b55aa86817489bc435787bf82c8,
+    type: 2}
+  m_PrefabInternal: {fileID: 1111994509}
+--- !u!114 &895443405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 895443397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9474066e582527f47ae435b7005a74f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 1396495193588984, guid: 369bf2afae441be4a8844062a58e52ca, type: 2}
+  player: {fileID: 1213193474}
+  bulletSpeed: 10
+  shootDistance: 5
+  bulletLifetime: 1
+  shootDelay: 1
 --- !u!114 &902029987 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114924626656347420, guid: 7118086d2cebc994aa3828bf97b1c92a,
