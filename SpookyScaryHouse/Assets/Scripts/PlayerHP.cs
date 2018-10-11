@@ -24,8 +24,7 @@ public class PlayerHP : MonoBehaviour {
             healthbar.GetComponent<Slider>().value = hp;
             if (hp <= 0)
             {
-                //Reload the level
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                SceneManager.LoadScene("Lose");
             }
         }
     }
