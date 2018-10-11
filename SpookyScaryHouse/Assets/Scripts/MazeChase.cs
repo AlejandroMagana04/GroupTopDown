@@ -11,10 +11,12 @@ public class MazeChase : MonoBehaviour {
     public Vector3 paceDirection = new Vector3(0, 0, 0);
     public float paceDistance = 3.0f;
     public float paceSpeed = 2.0f;
+    private float startChaseSpeed;
     // Use this for initialization
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+        startChaseSpeed = chaseSpeed;
         startPosition = transform.position;
     }
 
@@ -74,8 +76,16 @@ public class MazeChase : MonoBehaviour {
     {
         if (collision.gameObject.tag == "Player")
         {
-            chaseSpeed = 0.0f;
+            chaseSpeed = 0;
+
         }
-        
+    }
+    void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            chaseSpeed = startChaseSpeed;
+
+        }
     }
 }
