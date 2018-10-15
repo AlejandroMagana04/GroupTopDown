@@ -1472,6 +1472,11 @@ Prefab:
       propertyPath: shootDelay
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 212448055183019258, guid: c33a0d36aa79c1743bb495f7bb46548c,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: 180
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c33a0d36aa79c1743bb495f7bb46548c, type: 2}
   m_IsPrefabAsset: 0
@@ -2180,6 +2185,11 @@ Prefab:
         type: 2}
       propertyPath: shootDelay
       value: 6.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 212448055183019258, guid: c33a0d36aa79c1743bb495f7bb46548c,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: 95
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c33a0d36aa79c1743bb495f7bb46548c, type: 2}
@@ -48892,6 +48902,11 @@ Prefab:
       propertyPath: m_Name
       value: minideath
       objectReference: {fileID: 0}
+    - target: {fileID: 212540008340075310, guid: 8c4cc9f8bad01f14dbdf1ab47f5421b0,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: 319
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c4cc9f8bad01f14dbdf1ab47f5421b0, type: 2}
   m_IsPrefabAsset: 0
@@ -49111,7 +49126,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 172
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -54624,6 +54639,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 212303422267578346, guid: 5f191482c9fede3499db20d5be502526,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: 341
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f191482c9fede3499db20d5be502526, type: 2}
   m_IsPrefabAsset: 0
@@ -54736,6 +54756,11 @@ Prefab:
         type: 2}
       propertyPath: shootDelay
       value: 5.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 212448055183019258, guid: c33a0d36aa79c1743bb495f7bb46548c,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: 343
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c33a0d36aa79c1743bb495f7bb46548c, type: 2}
@@ -54941,6 +54966,11 @@ Prefab:
         type: 2}
       propertyPath: shootDelay
       value: 4.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 212448055183019258, guid: c33a0d36aa79c1743bb495f7bb46548c,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: 352
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c33a0d36aa79c1743bb495f7bb46548c, type: 2}
