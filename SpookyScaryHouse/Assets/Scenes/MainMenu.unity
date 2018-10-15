@@ -124,8 +124,8 @@ GameObject:
   - component: {fileID: 198507936}
   - component: {fileID: 198507935}
   - component: {fileID: 198507934}
-  - component: {fileID: 198507938}
   - component: {fileID: 198507939}
+  - component: {fileID: 198507938}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -218,7 +218,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 198507933}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c55960276f9716e4dac1bfa2d92fb92e, type: 3}
+  m_Script: {fileID: 11500000, guid: 65efab738f463044b8867924b29f8726, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &198507939
@@ -564,7 +564,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 198507938}
-        m_MethodName: Level1
+        m_MethodName: Objective
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
