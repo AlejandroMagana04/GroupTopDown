@@ -2237,6 +2237,11 @@ Prefab:
       propertyPath: m_Name
       value: zombie duck (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 114162122856838768, guid: 41489be535929e54684933ec4e84eb13,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2003807886}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41489be535929e54684933ec4e84eb13, type: 2}
   m_IsPrefabAsset: 0
@@ -2278,7 +2283,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f13b593ef0a3a8f41b180f11dbd17442, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 150
+  hp: 50
   door: {fileID: 839686521}
 --- !u!114 &759089699
 MonoBehaviour:
@@ -2451,6 +2456,11 @@ Prefab:
       propertyPath: m_Name
       value: zombie duck (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 114162122856838768, guid: 41489be535929e54684933ec4e84eb13,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2003807886}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41489be535929e54684933ec4e84eb13, type: 2}
   m_IsPrefabAsset: 0
@@ -3517,6 +3527,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 114162122856838768, guid: 41489be535929e54684933ec4e84eb13,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2003807886}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41489be535929e54684933ec4e84eb13, type: 2}
   m_IsPrefabAsset: 0
@@ -3656,8 +3671,8 @@ MonoBehaviour:
   player: {fileID: 2003807886}
   bulletSpeed: 15
   shootDistance: 9
-  bulletLifetime: 5
-  shootDelay: 0.7
+  bulletLifetime: 0.7
+  shootDelay: 3
 --- !u!114 &1655016084
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3670,8 +3685,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 2003807886}
-  chaseSpeed: 10
-  chaseTriggerDistance: 1
+  chaseSpeed: 1
+  chaseTriggerDistance: 5
   paceDirection: {x: 1, y: 1, z: 0}
   paceDistance: 3
   paceSpeed: 2
@@ -3686,7 +3701,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc9c46c5870773d44a8c1f1b790a11a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 200
+  hp: 75
 --- !u!212 &1655016086
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3824,6 +3839,11 @@ Prefab:
       propertyPath: m_Name
       value: zombie duck (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 114162122856838768, guid: 41489be535929e54684933ec4e84eb13,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2003807886}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41489be535929e54684933ec4e84eb13, type: 2}
   m_IsPrefabAsset: 0
@@ -10547,7 +10567,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1881513324}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.483, y: 30.23, z: -1}
+  m_LocalPosition: {x: -0.483, y: 24.57, z: -1}
   m_LocalScale: {x: 5.0228124, y: 1.335296, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -10601,6 +10621,11 @@ Prefab:
       propertyPath: m_Name
       value: zombie duck (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 114162122856838768, guid: 41489be535929e54684933ec4e84eb13,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2003807886}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41489be535929e54684933ec4e84eb13, type: 2}
   m_IsPrefabAsset: 0
