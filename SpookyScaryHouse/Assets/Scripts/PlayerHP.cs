@@ -27,5 +27,14 @@ public class PlayerHP : MonoBehaviour {
                 SceneManager.LoadScene("Lose");
             }
         }
+        else if (collision.gameObject.tag == "Heal")
+        {
+            hp++;
+            healthText.GetComponent<Text>().text = "Health:" + hp;
+            healthbar.GetComponent<Slider>().value = hp;
+            Destroy(collision.gameObject);
+        }
     }
+
+       
 }
