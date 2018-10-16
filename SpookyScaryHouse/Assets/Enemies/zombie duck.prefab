@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9474066e582527f47ae435b7005a74f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 1391865819227586, guid: f8006a9150f8f6c46a2c1fc52de4fe48, type: 2}
+  prefab: {fileID: 1680412968706594, guid: 0d59077105ef34544a58f48c9982bfdb, type: 2}
   player: {fileID: 1695455838770578, guid: eefbb1b76f2258d4595d3832abc1e2b7, type: 2}
   bulletSpeed: 10
   shootDistance: 5
