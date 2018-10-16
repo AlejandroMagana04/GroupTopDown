@@ -653,6 +653,11 @@ Prefab:
       propertyPath: m_Name
       value: Spider (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 114854454157034676, guid: 5f191482c9fede3499db20d5be502526,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2110693542}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f191482c9fede3499db20d5be502526, type: 2}
   m_IsPrefabAsset: 0
@@ -745,6 +750,11 @@ Prefab:
       propertyPath: m_Name
       value: Spider (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 114854454157034676, guid: 5f191482c9fede3499db20d5be502526,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2110693542}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f191482c9fede3499db20d5be502526, type: 2}
   m_IsPrefabAsset: 0
@@ -54713,6 +54723,11 @@ Prefab:
       propertyPath: m_SortingOrder
       value: 341
       objectReference: {fileID: 0}
+    - target: {fileID: 114854454157034676, guid: 5f191482c9fede3499db20d5be502526,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2110693542}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f191482c9fede3499db20d5be502526, type: 2}
   m_IsPrefabAsset: 0
